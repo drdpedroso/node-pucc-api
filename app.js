@@ -8,16 +8,20 @@ app.get('/', function(req, res) {
 
 // Lista de Utilizadores
 var users = [
-	  {'photo' : 'http://s2.glbimg.com/pXH2qoCQFOGFm6VmCJZvvL68m98=/e.glbimg.com/og/ed/f/original/2016/06/14/untitled-3_1.jpg', 'name' : 'Lilian', 'age': '21'},
-	  {'photo' : 'http://s2.glbimg.com/eSWSdBeYTNdjxJYSX3YQ5IVm12A=/s.glbimg.com/et/gs/f/original/2015/10/23/gabee2.jpg', 'name' : 'Larissa', 'age' : '18'}
+	   {'photo' : 'http://img.cinemablend.com/cb/9/0/5/a/e/f/905aefab4e52d7786bbad8b94d3c14af4656b5129e0d88cbb21fa04bc7615691.jpg'
+	 	, 'name' : 'Darth Vader', 'age': '42','descricao': 'Adoro longas caminhadas na praia. Sith > all. Escorpiano :)'}
+	 , {'photo' : 'https://s-media-cache-ak0.pinimg.com/564x/2f/b7/dc/2fb7dc3e5cb7b12b454aa1bfdf45573f.jpg'
+     	, 'name' : 'Luke Skywalker', 'age' : '19', 'descricao': 'Primeiramente fora Vader. Segundamente Bom dia'}
+     , {'photo' : 'https://s-media-cache-ak0.pinimg.com/564x/2f/b7/dc/2fb7dc3e5cb7b12b454aa1bfdf45573f.jpg'
+     	, 'name' : 'Luke Skywalker', 'age' : '19', 'descricao': 'Primeiramente fora Vader. Segundamente Bom dia'}
 ];
 
 
 
 // Definir um endpoint da API
-app.get('/api/get_persons', function(req, res, next) {
+app.get('/api/get_users', function(req, res, next) {
   res.send(users);
 })
 
-// Aplicação disponível em http://127.0.0.1:9000/
+// Aplicação disponível em http://127.0.0.1:3000/
 app.listen(process.env.PORT || 3000);
