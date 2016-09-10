@@ -19,7 +19,7 @@ var users = [
 
 
 // Definir um endpoint da API
-app.get('/api/get_users', function(req, res, next) {
+app.get('/api/get_persons', function(req, res, next) {
   res.send(users);
 })
 
