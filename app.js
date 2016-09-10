@@ -20,4 +20,4 @@ app.get('/api/get_users', function(req, res, next) {
 })
 
 // Aplicação disponível em http://127.0.0.1:9000/
-app.listen(9000);
+app.listen(process.env.PORT || 3000);
