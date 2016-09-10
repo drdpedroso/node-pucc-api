@@ -12,8 +12,8 @@ var users = [
 	 	, 'name' : 'Darth Vader', 'age': '42','descricao': 'Adoro longas caminhadas na praia. Sith > all. Escorpiano :)'}
 	 , {'photo' : 'https://s-media-cache-ak0.pinimg.com/564x/2f/b7/dc/2fb7dc3e5cb7b12b454aa1bfdf45573f.jpg'
      	, 'name' : 'Luke Skywalker', 'age' : '19', 'descricao': 'Primeiramente fora Vader. Segundamente Bom dia'}
-     , {'photo' : 'https://s-media-cache-ak0.pinimg.com/564x/2f/b7/dc/2fb7dc3e5cb7b12b454aa1bfdf45573f.jpg'
-     	, 'name' : 'Luke Skywalker', 'age' : '19', 'descricao': 'Primeiramente fora Vader. Segundamente Bom dia'}
+     , {'photo' : 'http://www.chewbacca.com/resources/chewie4.jpg'
+     	, 'name' : 'Chewbacca', 'age' : '200', 'descricao': 'Muito prazer, Chewie. Um alienígena da raça Wookiee, oriundo do planeta Kashyyyk, cheio de amor para dar.'}
 ];
 
 
